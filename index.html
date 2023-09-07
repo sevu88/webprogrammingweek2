@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="src/index.js" defer></script>
+  </head>
+
+  <body>
+    <table id="tabledata">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Admin</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="tablebody">
+        <tr>
+          <td>Webmaster</td>
+          <td>example@email.com</td>
+          <td>Demoland 123</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>User123</td>
+          <td>example@email.com</td>
+          <td>Userplace 321</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>AnotherUser222</td>
+          <td>example@email.com</td>
+          <td>AnotherPlace 21</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form id="my-form">
+      <label for="input-username">Username:</label>
+      <input type="text" id="input-username" required />
+
+      <label for="input-email">Email:</label>
+      <input type="text" id="input-email" required />
+
+      <label for="input-address">Address:</label>
+      <input type="text" id="input-address" required />
+
+      <label for="input-admin">Admin:</label>
+      <input type="checkbox" id="input-admin" />
+
+      <label for="input-image">Image:</label>
+      <input type="file" , id="input-image" accept="image/*" />
+
+      <button id="submit-data">Submit</button>
+      <button id="empty-table">Empty</button>
+    </form>
+  </body>
+</html>
